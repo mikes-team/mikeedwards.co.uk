@@ -3,8 +3,8 @@
 
 
 window.onload = function() {
-  console.log('simpstacgene js loaded')
-  const its = document.getElementsByClassName('listings-item')
+  console.log('mikeedwards js loaded')
+  const its = document.getElementsByClassName('paypal-item')
 
   for (let i = 0; i < its.length; i++) {
     const frm = its[i].getElementsByClassName('paypal_form')[0]

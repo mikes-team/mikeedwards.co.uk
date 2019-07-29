@@ -1,7 +1,53 @@
+.strong {
+  font-size: larger;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.red-highlight {
+  color: #FF1D00;
+}
+
+.col {
+  border: 1px solid blue;
+}
+
 div.banner {
+  text-align: center;
+}
+
+div.print-main-details p,
+div.print-main-details figure,
+div.print-main-details div.paypal-item,
+div.print-listing p,
+div.print-detail p {
   text-align: center
 }
 
-figure.shrew img {
-  width: 80px;
+div.print-main-details div.paypal-item {
+  margin-bottom: 20px;
+}
+
+div.print-pair div.col {
+  width: 50%;
+}
+
+div.print-listing {
+  /* width: 30%; */
+  float: left;
+}
+
+div.print-detail {
+  /* width: 30%; */
+  float: right;
+}
+
+div.print-listing img {
+  width: 90%;
+}
+
+div.print-detail img {
+  width: 90%;
 }
