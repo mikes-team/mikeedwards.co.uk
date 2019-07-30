@@ -6,7 +6,7 @@
   "scripts": {
     "build": "node node_modules\\simpstacgene\\engine\\engine.js",
     "assets": "node node_modules\\simpstacgene\\engine\\copyAssets.js",
-    "build-assets": "node node_modules\\simpstacgene\\engine\\engine.js && node node_modules\\simpstacgene\\engine\\copyAssets.js"
+    "build-assets": "node node_modules/simpstacgene/engine/engine.js && node node_modules/simpstacgene/engine/copyAssets.js"
   },
   "author": "lucsan@zencorp.co.uk",
   "license": "ISC",
